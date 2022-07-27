@@ -1,0 +1,23 @@
+.form-table{
+ 
+  display: flex;
+  flex-direction: row;
+  
+}
+table{
+  display: block;
+ overflow: scroll;
+  height:87vh;
+  width:100%;
+}
+
+@media screen and (max-width: 1100px) {
+  
+  .form-table{
+   
+    flex-direction: column;
+  }
+  .table{
+    height:auto;
+  }
+}
