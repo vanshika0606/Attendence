@@ -26,7 +26,7 @@ let name , value;
         e.preventDefault();
         
         const {name, email , id} = table;
-       const res = await fetch("/" , {
+       const res = await fetch("http://localhost:3000/" , {
         method:"POST",
         headers:{
           "Content-Type": "application/json"
