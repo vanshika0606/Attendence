@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const connectDatabase = ()=>{
 
 
-    mongoose.connect("mongodb://localhost:27017/saaspect" , {useNewUrlParser:true}).then((data)=>{
+    mongoose.connect("mongodb://localhost:27017/studentData" , {useNewUrlParser:true}).then((data)=>{
     console.log(`Mongodb connect with server 4000`)
 }).catch(()=>{
     console.log(err)

@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser= require("body-parser");
 const app = express();
 
-const table= require("./routes/tableRoute");
+const student= require("./routes/studentRoute");
 
 
 
@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 
 
-app.use("/" ,table );
+app.use("/" , student );
 
 
 module.exports = app;
